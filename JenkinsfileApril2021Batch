@@ -32,9 +32,7 @@ node('wallmart-node')
  }
  }
 */
-/*
-pp
-*/
+
  stage('SendEmailNotification')
  {
  emailext body: '''Build Over..
